@@ -10,7 +10,7 @@ const Sidebar = () => {
 
         <List>
           <ListItem disablePadding  >
-            <ListItemButton component="a" href='#home'sx={{padding:"1px",m:"2px"}} >
+            <ListItemButton component="a" href='#home' >
               <ListItemIcon>
                <Home/>
               </ListItemIcon>
@@ -18,7 +18,7 @@ const Sidebar = () => {
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href='#home'sx={{padding:"1px",m:"2px"}}>
+            <ListItemButton component="a" href='#home'>
               <ListItemIcon>
                <NoteAdd/>
               </ListItemIcon>
@@ -26,7 +26,7 @@ const Sidebar = () => {
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href='#home'sx={{padding:"1px",m:"2px"}}>
+            <ListItemButton component="a" href='#home'>
               <ListItemIcon>
                <People/>
               </ListItemIcon>
@@ -34,7 +34,7 @@ const Sidebar = () => {
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href='#home'sx={{padding:"1px",m:"2px"}}>
+            <ListItemButton component="a" href='#home'>
               <ListItemIcon>
                <Storefront/>
               </ListItemIcon>
@@ -42,7 +42,7 @@ const Sidebar = () => {
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href='#friends'sx={{padding:"1px",m:"2px"}}>
+            <ListItemButton component="a" href='#friends'>
               <ListItemIcon>
                <Person/>
               </ListItemIcon>
@@ -50,7 +50,7 @@ const Sidebar = () => {
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href='#setting'sx={{padding:"1px",m:"2px"}}>
+            <ListItemButton component="a" href='#setting'>
               <ListItemIcon>
                <Settings/>
               </ListItemIcon>
@@ -58,7 +58,7 @@ const Sidebar = () => {
             </ListItemButton>
           </ListItem>
           <ListItem disablePadding>
-            <ListItemButton component="a" href='#simple-list'sx={{padding:"1px",m:"2px"}}>
+            <ListItemButton component="a" href='#simple-list'>
               <ListItemIcon>
                <AccountBox />
               </ListItemIcon>

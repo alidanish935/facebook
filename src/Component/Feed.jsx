@@ -7,8 +7,8 @@ import post3 from '../images/post3.jpg'
 
 const Feed = () => {
   return (
-    <Box  flex={4} p={2} >
-      <Card sx={{ maxWidth: 400,marginBottom:5}}>
+    <Box  flex={5} p={2} >
+      <Card sx={{ marginBottom:5}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
@@ -25,7 +25,7 @@ const Feed = () => {
       />
       <CardMedia
         component="img"
-        height="194"
+        height="20%"
         image={post1}
         alt="Paella dish"
       />
@@ -47,7 +47,7 @@ const Feed = () => {
       </CardActions>
      
     </Card>
-    <Card sx={{ maxWidth: 400,marginBottom:5}}>
+    <Card sx={{ marginBottom:5}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
@@ -64,7 +64,7 @@ const Feed = () => {
       />
       <CardMedia
         component="img"
-        height="194"
+        height="20%"
         image={post2}
         alt="Paella dish"
       />
@@ -86,7 +86,7 @@ const Feed = () => {
       </CardActions>
      
     </Card>
-    <Card sx={{ maxWidth: 400,marginBottom:5}}>
+    <Card sx={{ marginBottom:5}}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
@@ -103,7 +103,7 @@ const Feed = () => {
       />
       <CardMedia
         component="img"
-        height="194"
+        height="20%"
         image={post3}
         alt="Paella dish"
       />
